@@ -3,7 +3,7 @@ import axios from 'axios';
 import { ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'recharts';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/expenses';
+const API_URL = "https://expense-tracker-backend-1js4.onrender.com/api/expenses";
 const COLORS = ['#FF6B6B', '#4D96FF', '#6BCB77', '#FFD93D', '#B983FF', '#6C757D'];
 
 function App() {
